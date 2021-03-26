@@ -16,4 +16,8 @@ export class Servico1Service {
   {
     return this.http.get('https://jsonplaceholder.typicode.com/photos');
   }
+  public getPhotosByAlbumId(albumId: number):Observable<any>
+  {
+    return this.http.get('https://jsonplaceholder.typicode.com/photos?albumId=' + albumId);
+  }
 }

@@ -1,4 +1,6 @@
 <div *ngFor="let a of albums">
-  <h1> album id = {{ a.userId }} </h1>
+  <h1> album id = {{ a.id }} </h1>
+  <button routerLink="/componenteservico/{{a.id}}"> Ver Fotos </button>
+
 </div>
 

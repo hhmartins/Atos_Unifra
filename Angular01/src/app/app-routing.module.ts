@@ -14,7 +14,7 @@ const routes: Routes = [
   {path:'componente2', component:Componente2Component},
   {path:'componente3', component:Componente3Component},
   {path:'componente4', component:Componente4Component},
-  {path:'componenteservico',component:ComponenteServicoComponent},
+  {path:'componenteservico/:albumID',component:ComponenteServicoComponent},
   {path:'componenteservicoalbum', component:ComponenteServicoAlbumComponent}
 
 ];

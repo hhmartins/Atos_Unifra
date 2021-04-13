@@ -12,6 +12,7 @@ import { Componente3Component } from './componente3/componente3.component';
 import { Componente4Component } from './componente4/componente4.component';
 import { ComponenteServicoComponent } from './componente-servico/componente-servico.component';
 import { ComponenteServicoAlbumComponent } from './componente-servico-album/componente-servico-album.component';
+import { Componente5Component } from './componente5/componente5.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ComponenteServicoAlbumComponent } from './componente-servico-album/comp
     Componente3Component,
     Componente4Component,
     ComponenteServicoComponent,
-    ComponenteServicoAlbumComponent
+    ComponenteServicoAlbumComponent,
+    Componente5Component
   ],
 
   imports: [
